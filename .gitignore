@@ -1,0 +1,7 @@
+node_modules/
+.idea/
+.env
+.helm/templates/.configmap.yaml
+.helm/templates/.configmap-*.yaml
+.helm/templates/.secret-*.yaml
+.DS_Store

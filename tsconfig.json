@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "types": ["node", "jest"],
+    "moduleResolution": "node",
+    "module": "CommonJS",
+    "target": "ES2020",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "declaration": true
+  },
+  "include": ["src/**/*"]
+}
